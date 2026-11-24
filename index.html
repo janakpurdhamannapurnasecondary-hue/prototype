@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A creative developer portfolio showcasing selected work, skills, and experience.">
+  <title>Portfolio — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="header" id="top">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark">P</span>
+        <span>Portfolio</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="button button-small" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+          <h1 id="hero-title">I create digital<br><span>experiences</span> that matter.</h1>
+          <p class="hero-text">Creative developer focused on thoughtful design, clean code, and memorable products for the modern web.</p>
+          <div class="hero-actions">
+            <a class="button" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">About me <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Creative portfolio introduction">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="portrait-card">
+            <div class="portrait-content">
+              <span class="portrait-code">&lt;/&gt;</span>
+              <span class="portrait-label">DESIGN + CODE</span>
+            </div>
+          </div>
+          <div class="floating-card card-top">
+            <strong>4+</strong>
+            <span>Years creating</span>
+          </div>
+          <div class="floating-card card-bottom">
+            <div class="mini-avatars">
+              <span></span><span></span><span></span>
+            </div>
+            <span>Happy to collaborate</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected projects</p>
+            <h2 id="work-title">Featured work</h2>
+          </div>
+          <p>A selection of recent projects across brand, product, and development.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-large">
+            <a href="#contact" class="project-image project-one" aria-label="View Fintech dashboard project">
+              <div class="mock-window">
+                <div class="mock-sidebar">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <div class="mock-main">
+                  <div class="mock-bar"><i></i><i></i></div>
+                  <div class="mock-chart"><span></span><span></span><span></span><span></span><span></span></div>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Fintech Dashboard</h3><p>Product design · Development</p></div>
+              <span>2026</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a href="#contact" class="project-image project-two" aria-label="View Nova identity project">
+              <div class="nova-mark">N</div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Nova Identity</h3><p>Brand system · Art direction</p></div>
+              <span>2025</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a href="#contact" class="project-image project-three" aria-label="View Wander travel project">
+              <div class="phone-mock">
+                <div class="phone-sun"></div>
+                <div class="phone-hill"></div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Wander App</h3><p>UX/UI · Mobile design</p></div>
+              <span>2025</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="about-kicker">01 — About</div>
+        <div class="about-content">
+          <h2 id="about-title">Turning ideas into useful, beautiful things.</h2>
+          <div class="about-copy">
+            <p>I’m a multidisciplinary creator combining design intuition with technical thinking. I care about the small details that make digital experiences feel clear, human, and effortless.</p>
+            <p>From concept to launch, I collaborate closely with people and teams to build work that is both purposeful and memorable.</p>
+            <a class="text-link" href="#contact">More about me <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="skill-row" aria-label="Skills">
+          <span>Web Development</span><span>UI/UX Design</span><span>Creative Direction</span><span>Brand Systems</span>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Start a conversation</p>
+        <h2 id="contact-title">Have a project in mind?<br><span>Let’s make it happen.</span></h2>
+        <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">P</span><span>Portfolio</span></a>
+      <p>© <span id="year"></span> Portfolio. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
